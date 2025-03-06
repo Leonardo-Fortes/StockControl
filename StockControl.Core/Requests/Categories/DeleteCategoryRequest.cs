@@ -1,12 +1,8 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
-
+﻿
 namespace StockControl.Core.Requests.Categories
 {
-    internal class DeleteCategoryRequest
+    public class DeleteCategoryRequest : Request
     {
+        public int Id { get; set; }
     }
 }

@@ -6,7 +6,8 @@ using System.Threading.Tasks;
 
 namespace StockControl.Core.Requests
 {
-    internal class Request
+    public abstract class Request
     {
+        public string UserId { get; set; } = string.Empty;
     }
 }

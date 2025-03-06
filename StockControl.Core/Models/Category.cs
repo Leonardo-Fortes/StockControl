@@ -13,5 +13,9 @@ namespace StockControl.Core.Models
         public string Title { get; set; } = null!;
 
         public string Description { get; set; } = null!;
+
+        public string UserId { get; set; } = string.Empty;
+
+        public ICollection<Product> Products { get; set; } = null!;
     }
 }
